@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Select your country</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- font family (8 to 10) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200&family=Poppins:wght@300&display=swap"
+        rel="stylesheet">
+    <!-- cdn for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<body>
+    <!-- <header>
+        <div class="fashion-photographer">
+            <h1>Ndemi Otieno India</h1>
+            <p>Fashion Photographer</p>
+        </div>
+        <div class="select-country">
+            <p>SELECT YOUR COUNTRY</p>
+            <img src="" alt="">
+        </div>
+    </header> -->
+    <section class="first-section">
+        <div class="fashion-photographer">
+            <h1 id="country-heading">Ndemi Otieno</h1>
+            <p>Fashion Photographer</p>
+        </div>
+        <div class="select-country">
+            <!-- <p id="country-name">SELECT YOUR COUNTRY</p> -->
+            <button class="dropbtn" id="dropdown-btn" onclick="getList()">SELECT YOUR COUNTRY</button>
+            <div id="flag-image" class="flag-image">
+                
+            </div>
+        </div>
+    </section>
+    <section class="explore-my-work">
+        <img src="images/1.jpg" alt="two ladies">
+        <p>EXPLORE MY WORK</p>
+    </section>
+    <section class="second-section">
+        <img src="images/2.jpg" alt="lady photographer">
+        <div class="why-fashion">
+            <h1>WHY FASHION?</h1>
+            <P>The brilliant colors, the exciting textures, and the dynamic energy as clothes transform their wearers.
+                Even as a child, I was always fascinated by fashion. Capturing it all led me to photography, so the two
+                coming together is truly magical.</P>
+            <P>I have been doing fashion photography professionally for 7 years now, although I have been pursuing it
+                since my teens, and through my years at the Venston Bay School for the Arts where I majored in Fashion
+                Photography.</P>
+            <P>Fashion is truly my passion. Now let me show you what I mean.</P>
+        </div>
+    </section>
+    <section class="third-section">
+        <h4>STEPPING OUT OF <br>THE FASHION PAGES</h4>
+        <div class="first-image">
+            <img src="images/3.jpg" alt="three ladies">
+            <h6>Rouge n' Ready</h6>
+            <p>Generation Zine</p>
+        </div>
+        <div class="second-image">
+            <img src="images/4.jpg" alt="lady with butterflies">
+            <h6>The Edge of Spring</h6>
+            <p>TrendMaker Magazine</p>
+        </div>
+        <div class="third-image">
+            <img src="images/5.jpg" alt="lady">
+            <h6>Fashion Upcycled</h6>
+            <p>Glam Pages</p>
+        </div>
+    </section>
+    <section class="fourth-section">
+        <div class="image-one">
+            <img src="images/6.jpg" alt="three ladies">
+            <h6>Street Style</h6>
+            <p>Photo Blog</p>
+        </div>
+        <div class="image-two">
+            <img src="images/7.jpg" alt="lady with butterflies">
+            <h6>Fashion for Charity</h6>
+            <p>Event Coverage</p>
+        </div>
+        <div class="image-three">
+            <img src="images/8.jpg" alt="lady">
+            <h6>Sustainable Fashion Coalition</h6>
+            <p>Organization Portfolio</p>
+        </div>
+    </section>
+    <section class="fifth-section">
+        <h4>STRUTTING ON <br>THE RUNWAY</h4>
+        <div class="first-lady">
+            <img src="images/9.jpg" alt="three ladies">
+            <h6>Santa Solana</h6>
+            <p>Fashion Week 2025</p>
+        </div>
+        <div class="second-lady">
+            <img src="images/10.jpg" alt="lady with butterflies">
+            <h6>Prithvi's Closet</h6>
+            <p>Collection Drop</p>
+        </div>
+        <div class="third-lady">
+            <img src="images/11.jpg" alt="lady">
+            <h6>Sustainable Fashion Coalition</h6>
+            <p>Summer Show</p>
+        </div>
+    </section>
+    <section class="last-section">
+        <div class="collaborate">
+            <div class="logo">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+            </div>
+            <div class="mail-id">
+                <h1>WANT TO<br>COLLABORATE?</h1>
+                <p>Message me at<br>hello@reallygreatsite.com</p>
+                <h5>LET'S CREATE TOGETHER!</h5>
+            </div>
+        </div>
+        <div class="ladies-with-book">
+            <img src="images/12.jpg" alt="two ladies with books">
+        </div>
+    </section>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

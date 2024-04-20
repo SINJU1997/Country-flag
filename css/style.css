@@ -1,0 +1,433 @@
+body {
+    margin: 0;
+    background-color: #fffaf4;
+}
+
+.first-section {
+    display: flex;
+    font-family: 'Noto Serif TC', serif;
+    color: #606060;
+    padding-left: 18em;
+    padding-right: 5em;
+}
+
+.fashion-photographer {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.fashion-photographer h1 {
+    margin-top: 1.25em;
+    font-weight: 500;
+    margin-bottom: 0;
+    font-size: 2rem;
+}
+
+.fashion-photographer p {
+    margin-top: .5em;
+    margin-bottom: 5em;
+    font-size: .75rem;
+    letter-spacing: .1em;
+}
+
+.select-country {
+    margin-right: 1.5em;
+    font-size: .75rem;
+    letter-spacing: .3em;
+    text-align: center;
+}
+
+/* .select-country p {
+    margin-top: .3em;
+    width: 100%;
+    font-family: 'Noto Serif TC', serif;
+    margin-bottom: 2em;
+} */
+
+.flag-image {
+    width: 48%;
+    height: 100px;
+    overflow-y: scroll;
+    overflow-x: hidden!important;
+    display: none;
+    margin-left: 5em;
+}
+
+.flag {
+    width: 100px;
+    height: 60px;
+    border-radius: 10%;
+}
+
+.dropbtn {
+    border: none;
+    background-color: #fffaf4;
+    cursor: pointer;
+    margin-top: .3em;
+    width: 100%;
+    font-family: 'Noto Serif TC', serif;
+    margin-bottom: 2em;
+    letter-spacing: .2em;
+}
+.dropdown-list{
+    width: 50px;
+    height: 40px;
+    border-radius: 10%;
+    padding-top: .2em;
+    padding-bottom: .2em;
+    cursor: pointer;
+    padding-right: 0;
+    margin-right: 0;
+    /* display: flex; */
+}
+.dropdown-div{
+    width: 100px;
+}
+/* second section */
+
+.explore-my-work {
+    width: 100%;
+    height: 50%;
+
+}
+
+.explore-my-work img {
+    width: 100%;
+    height: 50%;
+}
+
+.explore-my-work P {
+    font-family: 'Noto Serif TC', serif;
+    width: 50%;
+    margin: 3em auto;
+    text-align: center;
+    font-size: .75rem;
+    letter-spacing: .2em;
+}
+
+/* why fashion section */
+.second-section {
+    display: flex;
+    width: 100%;
+    height: 50%;
+    justify-content: space-around;
+    padding-top: 6em;
+}
+
+.second-section img {
+    width: 400px;
+    height: 600px;
+}
+
+.why-fashion {
+    font-family: 'Noto Serif TC', serif;
+    color: #606060;
+    width: 25%;
+    padding-top: 5em;
+}
+
+.why-fashion h1 {
+    font-size: 1.2rem;
+    letter-spacing: .1em;
+    margin-bottom: 2em;
+}
+
+.why-fashion p {
+    font-family: 'Poppins', sans-serif;
+    font-size: .9rem;
+    margin-bottom: 2em;
+}
+
+/* STEPPING OUT OF THE FASHION PAGES */
+.third-section {
+    display: flex;
+    padding-top: 8em;
+    justify-content: space-between;
+}
+
+.third-section h4 {
+    position: absolute;
+    top: 1555px;
+    font-size: 1.2rem;
+    font-family: 'Noto Serif TC', serif;
+    color: #606060;
+    font-weight: 600;
+    width: 20%;
+    letter-spacing: .1em;
+    padding-left: 3em;
+}
+
+.first-image img {
+    width: 300px;
+    height: 300px;
+    padding-top: 15em;
+    padding-left: 10em;
+}
+
+.first-image h6 {
+    padding-left: 12.5em;
+    margin-top: 1em;
+    margin-bottom: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: .8rem;
+    font-weight: bolder;
+}
+
+.first-image p {
+    padding-left: 12.5em;
+    margin-top: .2em;
+    font-family: 'Poppins', sans-serif;
+    font-size: .8rem;
+}
+
+.second-image img {
+    width: 280px;
+    height: 500px;
+    padding-top: 8em;
+}
+
+.second-image h6 {
+    margin-top: 1em;
+    margin-bottom: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: .8rem;
+    font-weight: bolder;
+}
+
+.second-image p {
+    margin-top: .2em;
+    font-family: 'Poppins', sans-serif;
+    font-size: .8rem;
+}
+
+.third-image img {
+    width: 420px;
+    height: 700px;
+}
+
+.third-image h6 {
+    margin-top: 1em;
+    margin-bottom: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: .8rem;
+    font-weight: bolder;
+}
+
+.third-image p {
+    margin-top: .2em;
+    font-family: 'Poppins', sans-serif;
+    font-size: .8rem;
+}
+
+/* fourth section */
+
+.fourth-section {
+    display: flex;
+    padding-top: 12em;
+}
+
+.image-one img {
+    width: 500px;
+    height: 350px;
+
+}
+
+.image-one h6 {
+    margin-top: 1em;
+    margin-bottom: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: .8rem;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.image-one p {
+    margin-top: .2em;
+    font-family: 'Poppins', sans-serif;
+    font-size: .8rem;
+    text-align: center;
+}
+
+.image-two img {
+    width: 359px;
+    height: 300px;
+    padding-top: 10em;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+.image-two h6 {
+    margin-top: 1em;
+    margin-bottom: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: .8rem;
+    font-weight: bolder;
+    padding-left: 6.5em;
+}
+
+.image-two p {
+    margin-top: .2em;
+    font-family: 'Poppins', sans-serif;
+    font-size: .8rem;
+    padding-left: 6.5em;
+}
+
+.image-three img {
+    width: 330px;
+    height: 400px;
+    padding-top: 1em;
+    margin-right: 0;
+}
+
+.image-three h6 {
+    margin-top: 1em;
+    margin-bottom: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: .8rem;
+    font-weight: bolder;
+}
+
+.image-three p {
+    margin-top: .2em;
+    font-family: 'Poppins', sans-serif;
+    font-size: .8rem;
+}
+
+/* STRUTTING ON THE RUNWAY */
+.fifth-section {
+    display: flex;
+    padding-top: 15em;
+    justify-content: space-between;
+}
+
+.fifth-section h4 {
+    position: absolute;
+    top: 3200px;
+    font-size: 1.2rem;
+    font-family: 'Noto Serif TC', serif;
+    color: #606060;
+    font-weight: 600;
+    width: 20%;
+    letter-spacing: .1em;
+    padding-left: 5em;
+}
+
+.first-lady img {
+    width: 350px;
+    height: 300px;
+    padding-top: 9em;
+    padding-left: 12em;
+}
+
+.first-lady h6 {
+    padding-left: 15em;
+    margin-top: 1em;
+    margin-bottom: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: .8rem;
+    font-weight: bolder;
+}
+
+.first-lady p {
+    padding-left: 15em;
+    margin-top: .2em;
+    font-family: 'Poppins', sans-serif;
+    font-size: .8rem;
+}
+
+.second-lady img {
+    width: 300px;
+    height: 450px;
+    padding-top: 3em;
+    padding-left: 5em;
+}
+
+.second-lady h6 {
+    margin-top: 1em;
+    margin-bottom: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: .8rem;
+    font-weight: bolder;
+    padding-left: 6.5em;
+}
+
+.second-lady p {
+    margin-top: .2em;
+    font-family: 'Poppins', sans-serif;
+    font-size: .8rem;
+    padding-left: 6.5em;
+}
+
+.third-lady img {
+    width: 300px;
+    height: 450px;
+    padding-top: 3em;
+    padding-left: 4em;
+}
+
+.third-lady h6 {
+    margin-top: 1em;
+    margin-bottom: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: .8rem;
+    font-weight: bolder;
+    padding-left: 5em;
+}
+
+.third-lady p {
+    margin-top: .2em;
+    font-family: 'Poppins', sans-serif;
+    font-size: .8rem;
+    padding-left: 5em;
+}
+
+/* WANT TO COLLABORATE? */
+.last-section {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 7em;
+}
+
+.collaborate {
+    padding-left: 5em;
+    padding-top: 5em;
+}
+
+.logo i {
+    font-size: 1.5rem;
+    padding-right: .7em;
+    color: #606060;
+}
+
+.mail-id {
+    padding-top: 15.5em;
+}
+
+.mail-id h1 {
+    font-size: 1.4rem;
+    color: #606060;
+    font-weight: 300;
+    letter-spacing: .1em;
+}
+
+.mail-id p {
+    font-size: .7rem;
+    color: #606060;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: .1em;
+    margin-top: 2.5em;
+}
+
+.mail-id h5 {
+    font-size: .9rem;
+    color: #606060;
+    font-weight: 300;
+    letter-spacing: .1em;
+    margin-top: 7.5em;
+}
+
+.ladies-with-book img {
+    width: 850px;
+    height: 610px;
+}
